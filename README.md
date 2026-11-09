@@ -2,10 +2,9 @@
 Symbolic Velocity Recurrence: identifying slow–fast hierarchies and delays from time series.
 
 SymVeR identifies, directly from multivariate time series, which of two coupled variables evolves on the slower timescale and acts as a parameter-like variable for the other, together with their interaction delay. It works on the direction of change of each series (the ternary sequence sgn(x_t − x_{t−1})) and combines three recurrence measures:
-
-the trapping time of the recurrence plot of the raw series (timescale);
-the laminarity of the recurrence plot of the ternary series (smoothness of the evolution);
-the diagonal cross recurrence profile of the ternary series (coupling and delay).
+1. the trapping time of the recurrence plot of the raw series (timescale);
+2. the laminarity of the recurrence plot of the ternary series (smoothness of the evolution);
+3. the diagonal cross recurrence profile of the ternary series (coupling and delay).
 
 Coupling is tested against circular-shift surrogates, the timescale hierarchy by joint moving-block bootstrap, and multiple comparisons are corrected with a two-stage Benjamini–Hochberg procedure. Each pair of variables is classified as driver → response (with delay), synchronous slow–fast, coupled with no timescale hierarchy, or no coupling. For the identified pairs, the estimated delay is used to draw a lag-corrected hysteresis profile of the response against its driver.
 
@@ -24,6 +23,7 @@ The notebook is organized in parts:
 - A.1 - A.6: Recurrence measures, coupling tests, bootstrap, Benjamini-Hochberg, full procedure, hystreresis profile
 - B.1 - B.8: Synthetic validation
 - B.9 - B.10: Robustness and sensitivity analysis
+- B.11: Comparison between SymVeR and autocorrelation function
 - C.1 - C.3: Application to EMA and SmearII data
 - D.1 - D.5: Hysteresis profile of EMA and SmearII data
 
@@ -40,7 +40,7 @@ SMEAR II. Half-hourly measurements from the SMEAR II station (Hyytiälä, Finlan
 **Results**
 
 The results/ folder contains:
-- validation_data/ : synthetic datasets of every scenario
+- validation_data/ : synthetic datasets of every scenario (unzip the folder)
 - validation_results.csv and validation_detail.csv are the outcome of every pair I the every realization
 - hysteresis_test_results.csv contains the data used to generate Figure S3 in the supplementary materials
 - robustness_results.csv, robustness_length.csv, robustness_rr.csv, sampling_results.csv, sampling_table.csv contain the robustness and sensitivity tests
