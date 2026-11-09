@@ -1,0 +1,7 @@
+scenario,point SymVeR,point TT,point Lam,point ACF 1/e,point ACF int,test SymVeR,test ACF 1/e,test ACF int
+A_delay_in_phase,10/10,10/10,10/10,10/10,10/10,10/10,2/10,2/10
+B_sync_strong,10/10,10/10,10/10,6/10,7/10,10/10,0/10,2/10
+C_sync_weak,10/10,10/10,10/10,10/10,10/10,10/10,10/10,8/10
+D_delay_antiphase,10/10,10/10,10/10,10/10,10/10,10/10,6/10,1/10
+E_sync_antiphase,10/10,10/10,10/10,8/10,6/10,10/10,0/10,0/10
+H_fast_drives_slow,10/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
