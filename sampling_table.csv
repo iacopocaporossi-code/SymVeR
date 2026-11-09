@@ -1,0 +1,5 @@
+sampling interval,A_delay_in_phase,B_sync_strong,C_sync_weak,F_uncoupled,"false couplings (s_null, A-C)",A: median delay (samples),A: median delay (time units)
+0.01,9/10,7/10,4/10,9/10,5/60,25.0,0.25
+0.02,9/10,10/10,6/10,9/10,5/60,13.0,0.26
+0.04,7/10,10/10,9/10,10/10,3/60,6.0,0.24
+0.08,10/10,10/10,10/10,10/10,1/60,3.0,0.24

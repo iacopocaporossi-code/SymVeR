@@ -1,0 +1,701 @@
+study,N,RR,scenario,seed,pair,control,obtained,tau,success
+length,500,0.05,A_delay_in_phase,0,x-y,False,no coupling,14,False
+length,500,0.05,A_delay_in_phase,0,x-s_null,True,no coupling,30,True
+length,500,0.05,A_delay_in_phase,0,y-s_null,True,"coupled, no timescale hierarchy",23,False
+length,500,0.05,A_delay_in_phase,1,x-y,False,driver -> response,10,True
+length,500,0.05,A_delay_in_phase,1,x-s_null,True,"coupled, no timescale hierarchy",30,False
+length,500,0.05,A_delay_in_phase,1,y-s_null,True,no coupling,22,True
+length,500,0.05,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+length,500,0.05,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+length,500,0.05,A_delay_in_phase,2,y-s_null,True,no coupling,9,True
+length,500,0.05,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+length,500,0.05,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+length,500,0.05,A_delay_in_phase,3,y-s_null,True,no coupling,15,True
+length,500,0.05,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+length,500,0.05,A_delay_in_phase,4,x-s_null,True,no coupling,26,True
+length,500,0.05,A_delay_in_phase,4,y-s_null,True,no coupling,-4,True
+length,500,0.05,A_delay_in_phase,5,x-y,False,no coupling,9,False
+length,500,0.05,A_delay_in_phase,5,x-s_null,True,no coupling,-19,True
+length,500,0.05,A_delay_in_phase,5,y-s_null,True,no coupling,22,True
+length,500,0.05,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+length,500,0.05,A_delay_in_phase,6,x-s_null,True,no coupling,16,True
+length,500,0.05,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+length,500,0.05,A_delay_in_phase,7,x-y,False,driver -> response,11,True
+length,500,0.05,A_delay_in_phase,7,x-s_null,True,no coupling,-5,True
+length,500,0.05,A_delay_in_phase,7,y-s_null,True,no coupling,-21,True
+length,500,0.05,A_delay_in_phase,8,x-y,False,driver -> response,12,True
+length,500,0.05,A_delay_in_phase,8,x-s_null,True,no coupling,-13,True
+length,500,0.05,A_delay_in_phase,8,y-s_null,True,no coupling,7,True
+length,500,0.05,A_delay_in_phase,9,x-y,False,driver -> response,11,True
+length,500,0.05,A_delay_in_phase,9,x-s_null,True,no coupling,-18,True
+length,500,0.05,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+length,500,0.05,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,0,x-s_null,True,no coupling,30,True
+length,500,0.05,B_sync_strong,0,y-s_null,True,no coupling,30,True
+length,500,0.05,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,1,x-s_null,True,"coupled, no timescale hierarchy",30,False
+length,500,0.05,B_sync_strong,1,y-s_null,True,"coupled, no timescale hierarchy",29,False
+length,500,0.05,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,2,x-s_null,True,no coupling,30,True
+length,500,0.05,B_sync_strong,2,y-s_null,True,no coupling,29,True
+length,500,0.05,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,3,x-s_null,True,no coupling,30,True
+length,500,0.05,B_sync_strong,3,y-s_null,True,no coupling,30,True
+length,500,0.05,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,4,x-s_null,True,no coupling,26,True
+length,500,0.05,B_sync_strong,4,y-s_null,True,no coupling,14,True
+length,500,0.05,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,5,x-s_null,True,no coupling,-19,True
+length,500,0.05,B_sync_strong,5,y-s_null,True,no coupling,-21,True
+length,500,0.05,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,6,x-s_null,True,no coupling,16,True
+length,500,0.05,B_sync_strong,6,y-s_null,True,no coupling,15,True
+length,500,0.05,B_sync_strong,7,x-y,False,no coupling,1,False
+length,500,0.05,B_sync_strong,7,x-s_null,True,no coupling,-5,True
+length,500,0.05,B_sync_strong,7,y-s_null,True,no coupling,-5,True
+length,500,0.05,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,8,x-s_null,True,no coupling,-13,True
+length,500,0.05,B_sync_strong,8,y-s_null,True,no coupling,-11,True
+length,500,0.05,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,B_sync_strong,9,x-s_null,True,no coupling,-18,True
+length,500,0.05,B_sync_strong,9,y-s_null,True,no coupling,-18,True
+length,500,0.05,C_sync_weak,0,x-y,False,no coupling,-1,False
+length,500,0.05,C_sync_weak,0,x-s_null,True,no coupling,30,True
+length,500,0.05,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+length,500,0.05,C_sync_weak,1,x-y,False,no coupling,-1,False
+length,500,0.05,C_sync_weak,1,x-s_null,True,"coupled, no timescale hierarchy",30,False
+length,500,0.05,C_sync_weak,1,y-s_null,True,no coupling,29,True
+length,500,0.05,C_sync_weak,2,x-y,False,no coupling,-1,False
+length,500,0.05,C_sync_weak,2,x-s_null,True,no coupling,30,True
+length,500,0.05,C_sync_weak,2,y-s_null,True,no coupling,-25,True
+length,500,0.05,C_sync_weak,3,x-y,False,no coupling,-1,False
+length,500,0.05,C_sync_weak,3,x-s_null,True,no coupling,30,True
+length,500,0.05,C_sync_weak,3,y-s_null,True,no coupling,-19,True
+length,500,0.05,C_sync_weak,4,x-y,False,no coupling,-1,False
+length,500,0.05,C_sync_weak,4,x-s_null,True,no coupling,26,True
+length,500,0.05,C_sync_weak,4,y-s_null,True,no coupling,27,True
+length,500,0.05,C_sync_weak,5,x-y,False,no coupling,2,False
+length,500,0.05,C_sync_weak,5,x-s_null,True,no coupling,-19,True
+length,500,0.05,C_sync_weak,5,y-s_null,True,no coupling,-16,True
+length,500,0.05,C_sync_weak,6,x-y,False,no coupling,-2,False
+length,500,0.05,C_sync_weak,6,x-s_null,True,no coupling,16,True
+length,500,0.05,C_sync_weak,6,y-s_null,True,no coupling,10,True
+length,500,0.05,C_sync_weak,7,x-y,False,no coupling,1,False
+length,500,0.05,C_sync_weak,7,x-s_null,True,no coupling,-5,True
+length,500,0.05,C_sync_weak,7,y-s_null,True,no coupling,-5,True
+length,500,0.05,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+length,500,0.05,C_sync_weak,8,x-s_null,True,no coupling,-13,True
+length,500,0.05,C_sync_weak,8,y-s_null,True,no coupling,-5,True
+length,500,0.05,C_sync_weak,9,x-y,False,no coupling,1,False
+length,500,0.05,C_sync_weak,9,x-s_null,True,no coupling,-18,True
+length,500,0.05,C_sync_weak,9,y-s_null,True,no coupling,18,True
+length,500,0.05,F_uncoupled,0,x-y,False,"coupled, no timescale hierarchy",-28,False
+length,500,0.05,F_uncoupled,1,x-y,False,synchronous slow-fast,0,False
+length,500,0.05,F_uncoupled,2,x-y,False,no coupling,-21,True
+length,500,0.05,F_uncoupled,3,x-y,False,"coupled, no timescale hierarchy",-11,False
+length,500,0.05,F_uncoupled,4,x-y,False,no coupling,-22,True
+length,500,0.05,F_uncoupled,5,x-y,False,no coupling,-19,True
+length,500,0.05,F_uncoupled,6,x-y,False,no coupling,-29,True
+length,500,0.05,F_uncoupled,7,x-y,False,no coupling,-20,True
+length,500,0.05,F_uncoupled,8,x-y,False,no coupling,-24,True
+length,500,0.05,F_uncoupled,9,x-y,False,"coupled, no timescale hierarchy",-12,False
+length,1000,0.05,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+length,1000,0.05,A_delay_in_phase,0,x-s_null,True,no coupling,28,True
+length,1000,0.05,A_delay_in_phase,0,y-s_null,True,"coupled, no timescale hierarchy",18,False
+length,1000,0.05,A_delay_in_phase,1,x-y,False,driver -> response,10,True
+length,1000,0.05,A_delay_in_phase,1,x-s_null,True,no coupling,30,True
+length,1000,0.05,A_delay_in_phase,1,y-s_null,True,no coupling,-2,True
+length,1000,0.05,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+length,1000,0.05,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+length,1000,0.05,A_delay_in_phase,2,y-s_null,True,no coupling,19,True
+length,1000,0.05,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+length,1000,0.05,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+length,1000,0.05,A_delay_in_phase,3,y-s_null,True,"coupled, no timescale hierarchy",15,False
+length,1000,0.05,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+length,1000,0.05,A_delay_in_phase,4,x-s_null,True,no coupling,30,True
+length,1000,0.05,A_delay_in_phase,4,y-s_null,True,no coupling,-18,True
+length,1000,0.05,A_delay_in_phase,5,x-y,False,driver -> response,12,True
+length,1000,0.05,A_delay_in_phase,5,x-s_null,True,no coupling,21,True
+length,1000,0.05,A_delay_in_phase,5,y-s_null,True,no coupling,8,True
+length,1000,0.05,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+length,1000,0.05,A_delay_in_phase,6,x-s_null,True,no coupling,-23,True
+length,1000,0.05,A_delay_in_phase,6,y-s_null,True,no coupling,1,True
+length,1000,0.05,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+length,1000,0.05,A_delay_in_phase,7,x-s_null,True,no coupling,-5,True
+length,1000,0.05,A_delay_in_phase,7,y-s_null,True,no coupling,-21,True
+length,1000,0.05,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+length,1000,0.05,A_delay_in_phase,8,x-s_null,True,no coupling,-18,True
+length,1000,0.05,A_delay_in_phase,8,y-s_null,True,no coupling,7,True
+length,1000,0.05,A_delay_in_phase,9,x-y,False,driver -> response,11,True
+length,1000,0.05,A_delay_in_phase,9,x-s_null,True,no coupling,17,True
+length,1000,0.05,A_delay_in_phase,9,y-s_null,True,no coupling,10,True
+length,1000,0.05,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,0,x-s_null,True,no coupling,28,True
+length,1000,0.05,B_sync_strong,0,y-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,1,x-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,1,y-s_null,True,no coupling,4,True
+length,1000,0.05,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,2,x-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,2,y-s_null,True,"coupled, no timescale hierarchy",30,False
+length,1000,0.05,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,3,x-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,3,y-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,4,x-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,4,y-s_null,True,no coupling,30,True
+length,1000,0.05,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,5,x-s_null,True,no coupling,21,True
+length,1000,0.05,B_sync_strong,5,y-s_null,True,no coupling,20,True
+length,1000,0.05,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,6,x-s_null,True,no coupling,-23,True
+length,1000,0.05,B_sync_strong,6,y-s_null,True,no coupling,16,True
+length,1000,0.05,B_sync_strong,7,x-y,False,no coupling,1,False
+length,1000,0.05,B_sync_strong,7,x-s_null,True,no coupling,-5,True
+length,1000,0.05,B_sync_strong,7,y-s_null,True,no coupling,-5,True
+length,1000,0.05,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,B_sync_strong,8,x-s_null,True,no coupling,-18,True
+length,1000,0.05,B_sync_strong,8,y-s_null,True,no coupling,-18,True
+length,1000,0.05,B_sync_strong,9,x-y,False,no coupling,1,False
+length,1000,0.05,B_sync_strong,9,x-s_null,True,no coupling,17,True
+length,1000,0.05,B_sync_strong,9,y-s_null,True,no coupling,23,True
+length,1000,0.05,C_sync_weak,0,x-y,False,no coupling,-1,False
+length,1000,0.05,C_sync_weak,0,x-s_null,True,no coupling,28,True
+length,1000,0.05,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+length,1000,0.05,C_sync_weak,1,x-y,False,no coupling,-1,False
+length,1000,0.05,C_sync_weak,1,x-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,1,y-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,2,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,C_sync_weak,2,x-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,2,y-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,C_sync_weak,3,x-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,3,y-s_null,True,no coupling,29,True
+length,1000,0.05,C_sync_weak,4,x-y,False,no coupling,-1,False
+length,1000,0.05,C_sync_weak,4,x-s_null,True,no coupling,30,True
+length,1000,0.05,C_sync_weak,4,y-s_null,True,no coupling,26,True
+length,1000,0.05,C_sync_weak,5,x-y,False,no coupling,2,False
+length,1000,0.05,C_sync_weak,5,x-s_null,True,no coupling,21,True
+length,1000,0.05,C_sync_weak,5,y-s_null,True,no coupling,-12,True
+length,1000,0.05,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+length,1000,0.05,C_sync_weak,6,x-s_null,True,no coupling,-23,True
+length,1000,0.05,C_sync_weak,6,y-s_null,True,no coupling,22,True
+length,1000,0.05,C_sync_weak,7,x-y,False,no coupling,1,False
+length,1000,0.05,C_sync_weak,7,x-s_null,True,no coupling,-5,True
+length,1000,0.05,C_sync_weak,7,y-s_null,True,no coupling,-11,True
+length,1000,0.05,C_sync_weak,8,x-y,False,no coupling,1,False
+length,1000,0.05,C_sync_weak,8,x-s_null,True,no coupling,-18,True
+length,1000,0.05,C_sync_weak,8,y-s_null,True,no coupling,15,True
+length,1000,0.05,C_sync_weak,9,x-y,False,no coupling,1,False
+length,1000,0.05,C_sync_weak,9,x-s_null,True,no coupling,17,True
+length,1000,0.05,C_sync_weak,9,y-s_null,True,no coupling,14,True
+length,1000,0.05,F_uncoupled,0,x-y,False,no coupling,-29,True
+length,1000,0.05,F_uncoupled,1,x-y,False,synchronous slow-fast,0,False
+length,1000,0.05,F_uncoupled,2,x-y,False,no coupling,-14,True
+length,1000,0.05,F_uncoupled,3,x-y,False,no coupling,-17,True
+length,1000,0.05,F_uncoupled,4,x-y,False,"coupled, no timescale hierarchy",-20,False
+length,1000,0.05,F_uncoupled,5,x-y,False,no coupling,-28,True
+length,1000,0.05,F_uncoupled,6,x-y,False,no coupling,-29,True
+length,1000,0.05,F_uncoupled,7,x-y,False,no coupling,-20,True
+length,1000,0.05,F_uncoupled,8,x-y,False,no coupling,-25,True
+length,1000,0.05,F_uncoupled,9,x-y,False,no coupling,-18,True
+length,2000,0.05,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+length,2000,0.05,A_delay_in_phase,0,x-s_null,True,no coupling,-7,True
+length,2000,0.05,A_delay_in_phase,0,y-s_null,True,no coupling,-20,True
+length,2000,0.05,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+length,2000,0.05,A_delay_in_phase,1,x-s_null,True,no coupling,4,True
+length,2000,0.05,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+length,2000,0.05,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+length,2000,0.05,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+length,2000,0.05,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+length,2000,0.05,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+length,2000,0.05,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+length,2000,0.05,A_delay_in_phase,3,y-s_null,True,no coupling,14,True
+length,2000,0.05,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+length,2000,0.05,A_delay_in_phase,4,x-s_null,True,no coupling,28,True
+length,2000,0.05,A_delay_in_phase,4,y-s_null,True,no coupling,7,True
+length,2000,0.05,A_delay_in_phase,5,x-y,False,driver -> response,11,True
+length,2000,0.05,A_delay_in_phase,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+length,2000,0.05,A_delay_in_phase,5,y-s_null,True,no coupling,12,True
+length,2000,0.05,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+length,2000,0.05,A_delay_in_phase,6,x-s_null,True,no coupling,-21,True
+length,2000,0.05,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+length,2000,0.05,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+length,2000,0.05,A_delay_in_phase,7,x-s_null,True,no coupling,-7,True
+length,2000,0.05,A_delay_in_phase,7,y-s_null,True,no coupling,-22,True
+length,2000,0.05,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+length,2000,0.05,A_delay_in_phase,8,x-s_null,True,no coupling,15,True
+length,2000,0.05,A_delay_in_phase,8,y-s_null,True,no coupling,-1,True
+length,2000,0.05,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+length,2000,0.05,A_delay_in_phase,9,x-s_null,True,no coupling,27,True
+length,2000,0.05,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+length,2000,0.05,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,0,x-s_null,True,no coupling,-7,True
+length,2000,0.05,B_sync_strong,0,y-s_null,True,no coupling,-5,True
+length,2000,0.05,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,1,x-s_null,True,no coupling,4,True
+length,2000,0.05,B_sync_strong,1,y-s_null,True,no coupling,4,True
+length,2000,0.05,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,2,x-s_null,True,no coupling,30,True
+length,2000,0.05,B_sync_strong,2,y-s_null,True,no coupling,30,True
+length,2000,0.05,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,3,x-s_null,True,no coupling,30,True
+length,2000,0.05,B_sync_strong,3,y-s_null,True,no coupling,30,True
+length,2000,0.05,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,4,x-s_null,True,no coupling,28,True
+length,2000,0.05,B_sync_strong,4,y-s_null,True,no coupling,21,True
+length,2000,0.05,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+length,2000,0.05,B_sync_strong,5,y-s_null,True,no coupling,22,True
+length,2000,0.05,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,6,x-s_null,True,no coupling,-21,True
+length,2000,0.05,B_sync_strong,6,y-s_null,True,no coupling,14,True
+length,2000,0.05,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,7,x-s_null,True,no coupling,-7,True
+length,2000,0.05,B_sync_strong,7,y-s_null,True,no coupling,-9,True
+length,2000,0.05,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,8,x-s_null,True,no coupling,15,True
+length,2000,0.05,B_sync_strong,8,y-s_null,True,no coupling,12,True
+length,2000,0.05,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,B_sync_strong,9,x-s_null,True,no coupling,27,True
+length,2000,0.05,B_sync_strong,9,y-s_null,True,no coupling,23,True
+length,2000,0.05,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,0,x-s_null,True,no coupling,-7,True
+length,2000,0.05,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+length,2000,0.05,C_sync_weak,1,x-y,False,no coupling,-1,False
+length,2000,0.05,C_sync_weak,1,x-s_null,True,no coupling,4,True
+length,2000,0.05,C_sync_weak,1,y-s_null,True,no coupling,-22,True
+length,2000,0.05,C_sync_weak,2,x-y,False,no coupling,1,False
+length,2000,0.05,C_sync_weak,2,x-s_null,True,no coupling,30,True
+length,2000,0.05,C_sync_weak,2,y-s_null,True,no coupling,30,True
+length,2000,0.05,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,3,x-s_null,True,no coupling,30,True
+length,2000,0.05,C_sync_weak,3,y-s_null,True,no coupling,29,True
+length,2000,0.05,C_sync_weak,4,x-y,False,no coupling,1,False
+length,2000,0.05,C_sync_weak,4,x-s_null,True,no coupling,28,True
+length,2000,0.05,C_sync_weak,4,y-s_null,True,no coupling,26,True
+length,2000,0.05,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+length,2000,0.05,C_sync_weak,5,y-s_null,True,no coupling,-17,True
+length,2000,0.05,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,6,x-s_null,True,no coupling,-21,True
+length,2000,0.05,C_sync_weak,6,y-s_null,True,no coupling,14,True
+length,2000,0.05,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,7,x-s_null,True,no coupling,-7,True
+length,2000,0.05,C_sync_weak,7,y-s_null,True,driver -> response,-9,False
+length,2000,0.05,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+length,2000,0.05,C_sync_weak,8,x-s_null,True,no coupling,15,True
+length,2000,0.05,C_sync_weak,8,y-s_null,True,no coupling,11,True
+length,2000,0.05,C_sync_weak,9,x-y,False,no coupling,1,False
+length,2000,0.05,C_sync_weak,9,x-s_null,True,no coupling,27,True
+length,2000,0.05,C_sync_weak,9,y-s_null,True,no coupling,14,True
+length,2000,0.05,F_uncoupled,0,x-y,False,no coupling,-20,True
+length,2000,0.05,F_uncoupled,1,x-y,False,no coupling,-28,True
+length,2000,0.05,F_uncoupled,2,x-y,False,no coupling,4,True
+length,2000,0.05,F_uncoupled,3,x-y,False,no coupling,-17,True
+length,2000,0.05,F_uncoupled,4,x-y,False,no coupling,-20,True
+length,2000,0.05,F_uncoupled,5,x-y,False,no coupling,14,True
+length,2000,0.05,F_uncoupled,6,x-y,False,no coupling,-29,True
+length,2000,0.05,F_uncoupled,7,x-y,False,no coupling,16,True
+length,2000,0.05,F_uncoupled,8,x-y,False,"coupled, no timescale hierarchy",-25,False
+length,2000,0.05,F_uncoupled,9,x-y,False,no coupling,-18,True
+length,4000,0.05,A_delay_in_phase,0,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,0,x-s_null,True,"coupled, no timescale hierarchy",0,False
+length,4000,0.05,A_delay_in_phase,0,y-s_null,True,driver -> response,-9,False
+length,4000,0.05,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,1,x-s_null,True,no coupling,-11,True
+length,4000,0.05,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+length,4000,0.05,A_delay_in_phase,2,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+length,4000,0.05,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+length,4000,0.05,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+length,4000,0.05,A_delay_in_phase,3,x-s_null,True,no coupling,-18,True
+length,4000,0.05,A_delay_in_phase,3,y-s_null,True,no coupling,-23,True
+length,4000,0.05,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,4,x-s_null,True,no coupling,-5,True
+length,4000,0.05,A_delay_in_phase,4,y-s_null,True,no coupling,-22,True
+length,4000,0.05,A_delay_in_phase,5,x-y,False,driver -> response,12,True
+length,4000,0.05,A_delay_in_phase,5,x-s_null,True,no coupling,28,True
+length,4000,0.05,A_delay_in_phase,5,y-s_null,True,no coupling,-19,True
+length,4000,0.05,A_delay_in_phase,6,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,6,x-s_null,True,no coupling,15,True
+length,4000,0.05,A_delay_in_phase,6,y-s_null,True,no coupling,5,True
+length,4000,0.05,A_delay_in_phase,7,x-y,False,driver -> response,14,False
+length,4000,0.05,A_delay_in_phase,7,x-s_null,True,no coupling,24,True
+length,4000,0.05,A_delay_in_phase,7,y-s_null,True,no coupling,-5,True
+length,4000,0.05,A_delay_in_phase,8,x-y,False,driver -> response,12,True
+length,4000,0.05,A_delay_in_phase,8,x-s_null,True,no coupling,13,True
+length,4000,0.05,A_delay_in_phase,8,y-s_null,True,no coupling,-2,True
+length,4000,0.05,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+length,4000,0.05,A_delay_in_phase,9,x-s_null,True,no coupling,-6,True
+length,4000,0.05,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+length,4000,0.05,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,0,x-s_null,True,no coupling,0,True
+length,4000,0.05,B_sync_strong,0,y-s_null,True,no coupling,1,True
+length,4000,0.05,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,1,x-s_null,True,no coupling,-11,True
+length,4000,0.05,B_sync_strong,1,y-s_null,True,no coupling,-6,True
+length,4000,0.05,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,2,x-s_null,True,no coupling,30,True
+length,4000,0.05,B_sync_strong,2,y-s_null,True,no coupling,30,True
+length,4000,0.05,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,3,x-s_null,True,no coupling,-18,True
+length,4000,0.05,B_sync_strong,3,y-s_null,True,no coupling,-15,True
+length,4000,0.05,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,4,x-s_null,True,no coupling,-5,True
+length,4000,0.05,B_sync_strong,4,y-s_null,True,no coupling,-7,True
+length,4000,0.05,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,5,x-s_null,True,no coupling,28,True
+length,4000,0.05,B_sync_strong,5,y-s_null,True,no coupling,27,True
+length,4000,0.05,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,6,x-s_null,True,no coupling,15,True
+length,4000,0.05,B_sync_strong,6,y-s_null,True,no coupling,14,True
+length,4000,0.05,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,7,x-s_null,True,no coupling,24,True
+length,4000,0.05,B_sync_strong,7,y-s_null,True,no coupling,24,True
+length,4000,0.05,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,8,x-s_null,True,no coupling,13,True
+length,4000,0.05,B_sync_strong,8,y-s_null,True,no coupling,13,True
+length,4000,0.05,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,B_sync_strong,9,x-s_null,True,no coupling,-6,True
+length,4000,0.05,B_sync_strong,9,y-s_null,True,no coupling,-6,True
+length,4000,0.05,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,0,x-s_null,True,no coupling,0,True
+length,4000,0.05,C_sync_weak,0,y-s_null,True,no coupling,1,True
+length,4000,0.05,C_sync_weak,1,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,1,x-s_null,True,no coupling,-11,True
+length,4000,0.05,C_sync_weak,1,y-s_null,True,no coupling,-9,True
+length,4000,0.05,C_sync_weak,2,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,2,x-s_null,True,no coupling,30,True
+length,4000,0.05,C_sync_weak,2,y-s_null,True,driver -> response,-30,False
+length,4000,0.05,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,3,x-s_null,True,no coupling,-18,True
+length,4000,0.05,C_sync_weak,3,y-s_null,True,no coupling,-13,True
+length,4000,0.05,C_sync_weak,4,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,4,x-s_null,True,no coupling,-5,True
+length,4000,0.05,C_sync_weak,4,y-s_null,True,no coupling,-12,True
+length,4000,0.05,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,5,x-s_null,True,no coupling,28,True
+length,4000,0.05,C_sync_weak,5,y-s_null,True,no coupling,-10,True
+length,4000,0.05,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,6,x-s_null,True,no coupling,15,True
+length,4000,0.05,C_sync_weak,6,y-s_null,True,no coupling,19,True
+length,4000,0.05,C_sync_weak,7,x-y,False,no coupling,1,False
+length,4000,0.05,C_sync_weak,7,x-s_null,True,no coupling,24,True
+length,4000,0.05,C_sync_weak,7,y-s_null,True,no coupling,-30,True
+length,4000,0.05,C_sync_weak,8,x-y,False,no coupling,2,False
+length,4000,0.05,C_sync_weak,8,x-s_null,True,no coupling,13,True
+length,4000,0.05,C_sync_weak,8,y-s_null,True,no coupling,11,True
+length,4000,0.05,C_sync_weak,9,x-y,False,synchronous slow-fast,0,True
+length,4000,0.05,C_sync_weak,9,x-s_null,True,no coupling,-6,True
+length,4000,0.05,C_sync_weak,9,y-s_null,True,no coupling,-13,True
+length,4000,0.05,F_uncoupled,0,x-y,False,no coupling,7,True
+length,4000,0.05,F_uncoupled,1,x-y,False,no coupling,-22,True
+length,4000,0.05,F_uncoupled,2,x-y,False,no coupling,-21,True
+length,4000,0.05,F_uncoupled,3,x-y,False,no coupling,-16,True
+length,4000,0.05,F_uncoupled,4,x-y,False,no coupling,-20,True
+length,4000,0.05,F_uncoupled,5,x-y,False,no coupling,11,True
+length,4000,0.05,F_uncoupled,6,x-y,False,no coupling,-29,True
+length,4000,0.05,F_uncoupled,7,x-y,False,driver -> response,11,False
+length,4000,0.05,F_uncoupled,8,x-y,False,no coupling,-25,True
+length,4000,0.05,F_uncoupled,9,x-y,False,no coupling,-18,True
+recurrence rate,2000,0.03,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.03,A_delay_in_phase,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,A_delay_in_phase,0,y-s_null,True,no coupling,-20,True
+recurrence rate,2000,0.03,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.03,A_delay_in_phase,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.03,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+recurrence rate,2000,0.03,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+recurrence rate,2000,0.03,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+recurrence rate,2000,0.03,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.03,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,A_delay_in_phase,3,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.03,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.03,A_delay_in_phase,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.03,A_delay_in_phase,4,y-s_null,True,no coupling,7,True
+recurrence rate,2000,0.03,A_delay_in_phase,5,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.03,A_delay_in_phase,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.03,A_delay_in_phase,5,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.03,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+recurrence rate,2000,0.03,A_delay_in_phase,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.03,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+recurrence rate,2000,0.03,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.03,A_delay_in_phase,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,A_delay_in_phase,7,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.03,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.03,A_delay_in_phase,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.03,A_delay_in_phase,8,y-s_null,True,no coupling,-1,True
+recurrence rate,2000,0.03,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.03,A_delay_in_phase,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.03,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.03,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,B_sync_strong,0,y-s_null,True,no coupling,-5,True
+recurrence rate,2000,0.03,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.03,B_sync_strong,1,y-s_null,True,no coupling,4,True
+recurrence rate,2000,0.03,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,B_sync_strong,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,B_sync_strong,3,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.03,B_sync_strong,4,y-s_null,True,no coupling,21,True
+recurrence rate,2000,0.03,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.03,B_sync_strong,5,y-s_null,True,no coupling,22,True
+recurrence rate,2000,0.03,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.03,B_sync_strong,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.03,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,B_sync_strong,7,y-s_null,True,no coupling,-9,True
+recurrence rate,2000,0.03,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.03,B_sync_strong,8,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.03,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,B_sync_strong,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.03,B_sync_strong,9,y-s_null,True,no coupling,23,True
+recurrence rate,2000,0.03,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+recurrence rate,2000,0.03,C_sync_weak,1,x-y,False,no coupling,-1,False
+recurrence rate,2000,0.03,C_sync_weak,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.03,C_sync_weak,1,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.03,C_sync_weak,2,x-y,False,no coupling,1,False
+recurrence rate,2000,0.03,C_sync_weak,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,C_sync_weak,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.03,C_sync_weak,3,y-s_null,True,no coupling,29,True
+recurrence rate,2000,0.03,C_sync_weak,4,x-y,False,no coupling,1,False
+recurrence rate,2000,0.03,C_sync_weak,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.03,C_sync_weak,4,y-s_null,True,no coupling,26,True
+recurrence rate,2000,0.03,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.03,C_sync_weak,5,y-s_null,True,no coupling,-17,True
+recurrence rate,2000,0.03,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.03,C_sync_weak,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.03,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.03,C_sync_weak,7,y-s_null,True,driver -> response,-9,False
+recurrence rate,2000,0.03,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.03,C_sync_weak,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.03,C_sync_weak,8,y-s_null,True,no coupling,11,True
+recurrence rate,2000,0.03,C_sync_weak,9,x-y,False,no coupling,1,False
+recurrence rate,2000,0.03,C_sync_weak,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.03,C_sync_weak,9,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.03,F_uncoupled,0,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.03,F_uncoupled,1,x-y,False,no coupling,-28,True
+recurrence rate,2000,0.03,F_uncoupled,2,x-y,False,no coupling,4,True
+recurrence rate,2000,0.03,F_uncoupled,3,x-y,False,no coupling,-17,True
+recurrence rate,2000,0.03,F_uncoupled,4,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.03,F_uncoupled,5,x-y,False,no coupling,14,True
+recurrence rate,2000,0.03,F_uncoupled,6,x-y,False,no coupling,-29,True
+recurrence rate,2000,0.03,F_uncoupled,7,x-y,False,no coupling,16,True
+recurrence rate,2000,0.03,F_uncoupled,8,x-y,False,"coupled, no timescale hierarchy",-25,False
+recurrence rate,2000,0.03,F_uncoupled,9,x-y,False,no coupling,-18,True
+recurrence rate,2000,0.05,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.05,A_delay_in_phase,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,A_delay_in_phase,0,y-s_null,True,no coupling,-20,True
+recurrence rate,2000,0.05,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.05,A_delay_in_phase,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.05,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+recurrence rate,2000,0.05,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+recurrence rate,2000,0.05,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+recurrence rate,2000,0.05,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.05,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,A_delay_in_phase,3,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.05,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.05,A_delay_in_phase,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.05,A_delay_in_phase,4,y-s_null,True,no coupling,7,True
+recurrence rate,2000,0.05,A_delay_in_phase,5,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.05,A_delay_in_phase,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.05,A_delay_in_phase,5,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.05,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+recurrence rate,2000,0.05,A_delay_in_phase,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.05,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+recurrence rate,2000,0.05,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.05,A_delay_in_phase,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,A_delay_in_phase,7,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.05,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.05,A_delay_in_phase,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.05,A_delay_in_phase,8,y-s_null,True,no coupling,-1,True
+recurrence rate,2000,0.05,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.05,A_delay_in_phase,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.05,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.05,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,B_sync_strong,0,y-s_null,True,no coupling,-5,True
+recurrence rate,2000,0.05,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.05,B_sync_strong,1,y-s_null,True,no coupling,4,True
+recurrence rate,2000,0.05,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,B_sync_strong,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,B_sync_strong,3,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.05,B_sync_strong,4,y-s_null,True,no coupling,21,True
+recurrence rate,2000,0.05,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.05,B_sync_strong,5,y-s_null,True,no coupling,22,True
+recurrence rate,2000,0.05,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.05,B_sync_strong,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.05,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,B_sync_strong,7,y-s_null,True,no coupling,-9,True
+recurrence rate,2000,0.05,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.05,B_sync_strong,8,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.05,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,B_sync_strong,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.05,B_sync_strong,9,y-s_null,True,no coupling,23,True
+recurrence rate,2000,0.05,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+recurrence rate,2000,0.05,C_sync_weak,1,x-y,False,no coupling,-1,False
+recurrence rate,2000,0.05,C_sync_weak,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.05,C_sync_weak,1,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.05,C_sync_weak,2,x-y,False,no coupling,1,False
+recurrence rate,2000,0.05,C_sync_weak,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,C_sync_weak,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.05,C_sync_weak,3,y-s_null,True,no coupling,29,True
+recurrence rate,2000,0.05,C_sync_weak,4,x-y,False,no coupling,1,False
+recurrence rate,2000,0.05,C_sync_weak,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.05,C_sync_weak,4,y-s_null,True,no coupling,26,True
+recurrence rate,2000,0.05,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.05,C_sync_weak,5,y-s_null,True,no coupling,-17,True
+recurrence rate,2000,0.05,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.05,C_sync_weak,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.05,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.05,C_sync_weak,7,y-s_null,True,driver -> response,-9,False
+recurrence rate,2000,0.05,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.05,C_sync_weak,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.05,C_sync_weak,8,y-s_null,True,no coupling,11,True
+recurrence rate,2000,0.05,C_sync_weak,9,x-y,False,no coupling,1,False
+recurrence rate,2000,0.05,C_sync_weak,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.05,C_sync_weak,9,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.05,F_uncoupled,0,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.05,F_uncoupled,1,x-y,False,no coupling,-28,True
+recurrence rate,2000,0.05,F_uncoupled,2,x-y,False,no coupling,4,True
+recurrence rate,2000,0.05,F_uncoupled,3,x-y,False,no coupling,-17,True
+recurrence rate,2000,0.05,F_uncoupled,4,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.05,F_uncoupled,5,x-y,False,no coupling,14,True
+recurrence rate,2000,0.05,F_uncoupled,6,x-y,False,no coupling,-29,True
+recurrence rate,2000,0.05,F_uncoupled,7,x-y,False,no coupling,16,True
+recurrence rate,2000,0.05,F_uncoupled,8,x-y,False,"coupled, no timescale hierarchy",-25,False
+recurrence rate,2000,0.05,F_uncoupled,9,x-y,False,no coupling,-18,True
+recurrence rate,2000,0.1,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.1,A_delay_in_phase,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,A_delay_in_phase,0,y-s_null,True,no coupling,-20,True
+recurrence rate,2000,0.1,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.1,A_delay_in_phase,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.1,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+recurrence rate,2000,0.1,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+recurrence rate,2000,0.1,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+recurrence rate,2000,0.1,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.1,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,A_delay_in_phase,3,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.1,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.1,A_delay_in_phase,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.1,A_delay_in_phase,4,y-s_null,True,no coupling,7,True
+recurrence rate,2000,0.1,A_delay_in_phase,5,x-y,False,driver -> response,11,True
+recurrence rate,2000,0.1,A_delay_in_phase,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.1,A_delay_in_phase,5,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.1,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+recurrence rate,2000,0.1,A_delay_in_phase,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.1,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+recurrence rate,2000,0.1,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.1,A_delay_in_phase,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,A_delay_in_phase,7,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.1,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.1,A_delay_in_phase,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.1,A_delay_in_phase,8,y-s_null,True,no coupling,-1,True
+recurrence rate,2000,0.1,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+recurrence rate,2000,0.1,A_delay_in_phase,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.1,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.1,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,B_sync_strong,0,y-s_null,True,no coupling,-5,True
+recurrence rate,2000,0.1,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.1,B_sync_strong,1,y-s_null,True,no coupling,4,True
+recurrence rate,2000,0.1,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,B_sync_strong,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,B_sync_strong,3,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.1,B_sync_strong,4,y-s_null,True,no coupling,21,True
+recurrence rate,2000,0.1,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.1,B_sync_strong,5,y-s_null,True,no coupling,22,True
+recurrence rate,2000,0.1,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.1,B_sync_strong,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.1,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,B_sync_strong,7,y-s_null,True,no coupling,-9,True
+recurrence rate,2000,0.1,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.1,B_sync_strong,8,y-s_null,True,no coupling,12,True
+recurrence rate,2000,0.1,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,B_sync_strong,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.1,B_sync_strong,9,y-s_null,True,no coupling,23,True
+recurrence rate,2000,0.1,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,0,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+recurrence rate,2000,0.1,C_sync_weak,1,x-y,False,no coupling,-1,False
+recurrence rate,2000,0.1,C_sync_weak,1,x-s_null,True,no coupling,4,True
+recurrence rate,2000,0.1,C_sync_weak,1,y-s_null,True,no coupling,-22,True
+recurrence rate,2000,0.1,C_sync_weak,2,x-y,False,no coupling,1,False
+recurrence rate,2000,0.1,C_sync_weak,2,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,C_sync_weak,2,y-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,3,x-s_null,True,no coupling,30,True
+recurrence rate,2000,0.1,C_sync_weak,3,y-s_null,True,no coupling,29,True
+recurrence rate,2000,0.1,C_sync_weak,4,x-y,False,no coupling,1,False
+recurrence rate,2000,0.1,C_sync_weak,4,x-s_null,True,no coupling,28,True
+recurrence rate,2000,0.1,C_sync_weak,4,y-s_null,True,no coupling,26,True
+recurrence rate,2000,0.1,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+recurrence rate,2000,0.1,C_sync_weak,5,y-s_null,True,no coupling,-17,True
+recurrence rate,2000,0.1,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,6,x-s_null,True,no coupling,-21,True
+recurrence rate,2000,0.1,C_sync_weak,6,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.1,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,7,x-s_null,True,no coupling,-7,True
+recurrence rate,2000,0.1,C_sync_weak,7,y-s_null,True,driver -> response,-9,False
+recurrence rate,2000,0.1,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+recurrence rate,2000,0.1,C_sync_weak,8,x-s_null,True,no coupling,15,True
+recurrence rate,2000,0.1,C_sync_weak,8,y-s_null,True,no coupling,11,True
+recurrence rate,2000,0.1,C_sync_weak,9,x-y,False,no coupling,1,False
+recurrence rate,2000,0.1,C_sync_weak,9,x-s_null,True,no coupling,27,True
+recurrence rate,2000,0.1,C_sync_weak,9,y-s_null,True,no coupling,14,True
+recurrence rate,2000,0.1,F_uncoupled,0,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.1,F_uncoupled,1,x-y,False,no coupling,-28,True
+recurrence rate,2000,0.1,F_uncoupled,2,x-y,False,no coupling,4,True
+recurrence rate,2000,0.1,F_uncoupled,3,x-y,False,no coupling,-17,True
+recurrence rate,2000,0.1,F_uncoupled,4,x-y,False,no coupling,-20,True
+recurrence rate,2000,0.1,F_uncoupled,5,x-y,False,no coupling,14,True
+recurrence rate,2000,0.1,F_uncoupled,6,x-y,False,no coupling,-29,True
+recurrence rate,2000,0.1,F_uncoupled,7,x-y,False,no coupling,16,True
+recurrence rate,2000,0.1,F_uncoupled,8,x-y,False,"coupled, no timescale hierarchy",-25,False
+recurrence rate,2000,0.1,F_uncoupled,9,x-y,False,no coupling,-18,True

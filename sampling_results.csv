@@ -1,0 +1,401 @@
+every,dt_sample,scenario,seed,pair,control,obtained,tau,success
+10,0.01,A_delay_in_phase,0,x-y,False,driver -> response,29,False
+10,0.01,A_delay_in_phase,0,x-s_null,True,no coupling,57,True
+10,0.01,A_delay_in_phase,0,y-s_null,True,no coupling,40,True
+10,0.01,A_delay_in_phase,1,x-y,False,driver -> response,26,True
+10,0.01,A_delay_in_phase,1,x-s_null,True,no coupling,60,True
+10,0.01,A_delay_in_phase,1,y-s_null,True,no coupling,39,True
+10,0.01,A_delay_in_phase,2,x-y,False,driver -> response,26,True
+10,0.01,A_delay_in_phase,2,x-s_null,True,"coupled, no timescale hierarchy",60,False
+10,0.01,A_delay_in_phase,2,y-s_null,True,no coupling,39,True
+10,0.01,A_delay_in_phase,3,x-y,False,driver -> response,22,True
+10,0.01,A_delay_in_phase,3,x-s_null,True,no coupling,60,True
+10,0.01,A_delay_in_phase,3,y-s_null,True,no coupling,23,True
+10,0.01,A_delay_in_phase,4,x-y,False,driver -> response,25,True
+10,0.01,A_delay_in_phase,4,x-s_null,True,no coupling,60,True
+10,0.01,A_delay_in_phase,4,y-s_null,True,no coupling,31,True
+10,0.01,A_delay_in_phase,5,x-y,False,driver -> response,24,True
+10,0.01,A_delay_in_phase,5,x-s_null,True,no coupling,43,True
+10,0.01,A_delay_in_phase,5,y-s_null,True,no coupling,7,True
+10,0.01,A_delay_in_phase,6,x-y,False,driver -> response,24,True
+10,0.01,A_delay_in_phase,6,x-s_null,True,no coupling,-44,True
+10,0.01,A_delay_in_phase,6,y-s_null,True,no coupling,1,True
+10,0.01,A_delay_in_phase,7,x-y,False,driver -> response,22,True
+10,0.01,A_delay_in_phase,7,x-s_null,True,no coupling,-11,True
+10,0.01,A_delay_in_phase,7,y-s_null,True,no coupling,56,True
+10,0.01,A_delay_in_phase,8,x-y,False,driver -> response,25,True
+10,0.01,A_delay_in_phase,8,x-s_null,True,no coupling,-36,True
+10,0.01,A_delay_in_phase,8,y-s_null,True,no coupling,-59,True
+10,0.01,A_delay_in_phase,9,x-y,False,driver -> response,26,True
+10,0.01,A_delay_in_phase,9,x-s_null,True,no coupling,34,True
+10,0.01,A_delay_in_phase,9,y-s_null,True,no coupling,44,True
+10,0.01,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,0,x-s_null,True,no coupling,57,True
+10,0.01,B_sync_strong,0,y-s_null,True,no coupling,60,True
+10,0.01,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,1,x-s_null,True,no coupling,60,True
+10,0.01,B_sync_strong,1,y-s_null,True,no coupling,9,True
+10,0.01,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,2,x-s_null,True,"coupled, no timescale hierarchy",60,False
+10,0.01,B_sync_strong,2,y-s_null,True,"coupled, no timescale hierarchy",60,False
+10,0.01,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,3,x-s_null,True,no coupling,60,True
+10,0.01,B_sync_strong,3,y-s_null,True,no coupling,58,True
+10,0.01,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,4,x-s_null,True,no coupling,60,True
+10,0.01,B_sync_strong,4,y-s_null,True,no coupling,59,True
+10,0.01,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,5,x-s_null,True,no coupling,43,True
+10,0.01,B_sync_strong,5,y-s_null,True,no coupling,43,True
+10,0.01,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+10,0.01,B_sync_strong,6,x-s_null,True,no coupling,-44,True
+10,0.01,B_sync_strong,6,y-s_null,True,no coupling,31,True
+10,0.01,B_sync_strong,7,x-y,False,no coupling,1,False
+10,0.01,B_sync_strong,7,x-s_null,True,no coupling,-11,True
+10,0.01,B_sync_strong,7,y-s_null,True,no coupling,-13,True
+10,0.01,B_sync_strong,8,x-y,False,no coupling,1,False
+10,0.01,B_sync_strong,8,x-s_null,True,no coupling,-36,True
+10,0.01,B_sync_strong,8,y-s_null,True,no coupling,31,True
+10,0.01,B_sync_strong,9,x-y,False,no coupling,1,False
+10,0.01,B_sync_strong,9,x-s_null,True,no coupling,34,True
+10,0.01,B_sync_strong,9,y-s_null,True,no coupling,40,True
+10,0.01,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+10,0.01,C_sync_weak,0,x-s_null,True,no coupling,57,True
+10,0.01,C_sync_weak,0,y-s_null,True,no coupling,-50,True
+10,0.01,C_sync_weak,1,x-y,False,no coupling,2,False
+10,0.01,C_sync_weak,1,x-s_null,True,no coupling,60,True
+10,0.01,C_sync_weak,1,y-s_null,True,no coupling,59,True
+10,0.01,C_sync_weak,2,x-y,False,no coupling,-3,False
+10,0.01,C_sync_weak,2,x-s_null,True,"coupled, no timescale hierarchy",60,False
+10,0.01,C_sync_weak,2,y-s_null,True,"coupled, no timescale hierarchy",59,False
+10,0.01,C_sync_weak,3,x-y,False,no coupling,2,False
+10,0.01,C_sync_weak,3,x-s_null,True,no coupling,60,True
+10,0.01,C_sync_weak,3,y-s_null,True,no coupling,-28,True
+10,0.01,C_sync_weak,4,x-y,False,synchronous slow-fast,0,True
+10,0.01,C_sync_weak,4,x-s_null,True,no coupling,60,True
+10,0.01,C_sync_weak,4,y-s_null,True,no coupling,-60,True
+10,0.01,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+10,0.01,C_sync_weak,5,x-s_null,True,no coupling,43,True
+10,0.01,C_sync_weak,5,y-s_null,True,no coupling,48,True
+10,0.01,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+10,0.01,C_sync_weak,6,x-s_null,True,no coupling,-44,True
+10,0.01,C_sync_weak,6,y-s_null,True,no coupling,-57,True
+10,0.01,C_sync_weak,7,x-y,False,no coupling,1,False
+10,0.01,C_sync_weak,7,x-s_null,True,no coupling,-11,True
+10,0.01,C_sync_weak,7,y-s_null,True,no coupling,48,True
+10,0.01,C_sync_weak,8,x-y,False,no coupling,-4,False
+10,0.01,C_sync_weak,8,x-s_null,True,no coupling,-36,True
+10,0.01,C_sync_weak,8,y-s_null,True,no coupling,-41,True
+10,0.01,C_sync_weak,9,x-y,False,no coupling,2,False
+10,0.01,C_sync_weak,9,x-s_null,True,no coupling,34,True
+10,0.01,C_sync_weak,9,y-s_null,True,no coupling,-11,True
+10,0.01,F_uncoupled,0,x-y,False,no coupling,27,True
+10,0.01,F_uncoupled,1,x-y,False,no coupling,-17,True
+10,0.01,F_uncoupled,2,x-y,False,no coupling,-29,True
+10,0.01,F_uncoupled,3,x-y,False,no coupling,2,True
+10,0.01,F_uncoupled,4,x-y,False,no coupling,5,True
+10,0.01,F_uncoupled,5,x-y,False,no coupling,-34,True
+10,0.01,F_uncoupled,6,x-y,False,no coupling,-35,True
+10,0.01,F_uncoupled,7,x-y,False,"coupled, no timescale hierarchy",-40,False
+10,0.01,F_uncoupled,8,x-y,False,no coupling,5,True
+10,0.01,F_uncoupled,9,x-y,False,no coupling,6,True
+20,0.02,A_delay_in_phase,0,x-y,False,driver -> response,11,True
+20,0.02,A_delay_in_phase,0,x-s_null,True,no coupling,-7,True
+20,0.02,A_delay_in_phase,0,y-s_null,True,no coupling,-20,True
+20,0.02,A_delay_in_phase,1,x-y,False,driver -> response,13,True
+20,0.02,A_delay_in_phase,1,x-s_null,True,no coupling,4,True
+20,0.02,A_delay_in_phase,1,y-s_null,True,no coupling,27,True
+20,0.02,A_delay_in_phase,2,x-y,False,driver -> response,14,False
+20,0.02,A_delay_in_phase,2,x-s_null,True,no coupling,30,True
+20,0.02,A_delay_in_phase,2,y-s_null,True,"coupled, no timescale hierarchy",19,False
+20,0.02,A_delay_in_phase,3,x-y,False,driver -> response,11,True
+20,0.02,A_delay_in_phase,3,x-s_null,True,no coupling,30,True
+20,0.02,A_delay_in_phase,3,y-s_null,True,no coupling,14,True
+20,0.02,A_delay_in_phase,4,x-y,False,driver -> response,13,True
+20,0.02,A_delay_in_phase,4,x-s_null,True,no coupling,28,True
+20,0.02,A_delay_in_phase,4,y-s_null,True,no coupling,7,True
+20,0.02,A_delay_in_phase,5,x-y,False,driver -> response,11,True
+20,0.02,A_delay_in_phase,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+20,0.02,A_delay_in_phase,5,y-s_null,True,no coupling,12,True
+20,0.02,A_delay_in_phase,6,x-y,False,driver -> response,12,True
+20,0.02,A_delay_in_phase,6,x-s_null,True,no coupling,-21,True
+20,0.02,A_delay_in_phase,6,y-s_null,True,no coupling,0,True
+20,0.02,A_delay_in_phase,7,x-y,False,driver -> response,13,True
+20,0.02,A_delay_in_phase,7,x-s_null,True,no coupling,-7,True
+20,0.02,A_delay_in_phase,7,y-s_null,True,no coupling,-22,True
+20,0.02,A_delay_in_phase,8,x-y,False,driver -> response,13,True
+20,0.02,A_delay_in_phase,8,x-s_null,True,no coupling,15,True
+20,0.02,A_delay_in_phase,8,y-s_null,True,no coupling,-1,True
+20,0.02,A_delay_in_phase,9,x-y,False,driver -> response,13,True
+20,0.02,A_delay_in_phase,9,x-s_null,True,no coupling,27,True
+20,0.02,A_delay_in_phase,9,y-s_null,True,no coupling,-21,True
+20,0.02,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,0,x-s_null,True,no coupling,-7,True
+20,0.02,B_sync_strong,0,y-s_null,True,no coupling,-5,True
+20,0.02,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,1,x-s_null,True,no coupling,4,True
+20,0.02,B_sync_strong,1,y-s_null,True,no coupling,4,True
+20,0.02,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,2,x-s_null,True,no coupling,30,True
+20,0.02,B_sync_strong,2,y-s_null,True,no coupling,30,True
+20,0.02,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,3,x-s_null,True,no coupling,30,True
+20,0.02,B_sync_strong,3,y-s_null,True,no coupling,30,True
+20,0.02,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,4,x-s_null,True,no coupling,28,True
+20,0.02,B_sync_strong,4,y-s_null,True,no coupling,21,True
+20,0.02,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+20,0.02,B_sync_strong,5,y-s_null,True,no coupling,22,True
+20,0.02,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,6,x-s_null,True,no coupling,-21,True
+20,0.02,B_sync_strong,6,y-s_null,True,no coupling,14,True
+20,0.02,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,7,x-s_null,True,no coupling,-7,True
+20,0.02,B_sync_strong,7,y-s_null,True,no coupling,-9,True
+20,0.02,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,8,x-s_null,True,no coupling,15,True
+20,0.02,B_sync_strong,8,y-s_null,True,no coupling,12,True
+20,0.02,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+20,0.02,B_sync_strong,9,x-s_null,True,no coupling,27,True
+20,0.02,B_sync_strong,9,y-s_null,True,no coupling,23,True
+20,0.02,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,0,x-s_null,True,no coupling,-7,True
+20,0.02,C_sync_weak,0,y-s_null,True,no coupling,-8,True
+20,0.02,C_sync_weak,1,x-y,False,no coupling,-1,False
+20,0.02,C_sync_weak,1,x-s_null,True,no coupling,4,True
+20,0.02,C_sync_weak,1,y-s_null,True,no coupling,-22,True
+20,0.02,C_sync_weak,2,x-y,False,no coupling,1,False
+20,0.02,C_sync_weak,2,x-s_null,True,no coupling,30,True
+20,0.02,C_sync_weak,2,y-s_null,True,no coupling,30,True
+20,0.02,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,3,x-s_null,True,no coupling,30,True
+20,0.02,C_sync_weak,3,y-s_null,True,no coupling,29,True
+20,0.02,C_sync_weak,4,x-y,False,no coupling,1,False
+20,0.02,C_sync_weak,4,x-s_null,True,no coupling,28,True
+20,0.02,C_sync_weak,4,y-s_null,True,no coupling,26,True
+20,0.02,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,5,x-s_null,True,"coupled, no timescale hierarchy",22,False
+20,0.02,C_sync_weak,5,y-s_null,True,no coupling,-17,True
+20,0.02,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,6,x-s_null,True,no coupling,-21,True
+20,0.02,C_sync_weak,6,y-s_null,True,no coupling,14,True
+20,0.02,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,7,x-s_null,True,no coupling,-7,True
+20,0.02,C_sync_weak,7,y-s_null,True,driver -> response,-9,False
+20,0.02,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+20,0.02,C_sync_weak,8,x-s_null,True,no coupling,15,True
+20,0.02,C_sync_weak,8,y-s_null,True,no coupling,11,True
+20,0.02,C_sync_weak,9,x-y,False,no coupling,1,False
+20,0.02,C_sync_weak,9,x-s_null,True,no coupling,27,True
+20,0.02,C_sync_weak,9,y-s_null,True,no coupling,14,True
+20,0.02,F_uncoupled,0,x-y,False,no coupling,-20,True
+20,0.02,F_uncoupled,1,x-y,False,no coupling,-28,True
+20,0.02,F_uncoupled,2,x-y,False,no coupling,4,True
+20,0.02,F_uncoupled,3,x-y,False,no coupling,-17,True
+20,0.02,F_uncoupled,4,x-y,False,no coupling,-20,True
+20,0.02,F_uncoupled,5,x-y,False,no coupling,14,True
+20,0.02,F_uncoupled,6,x-y,False,no coupling,-29,True
+20,0.02,F_uncoupled,7,x-y,False,no coupling,16,True
+20,0.02,F_uncoupled,8,x-y,False,"coupled, no timescale hierarchy",-25,False
+20,0.02,F_uncoupled,9,x-y,False,no coupling,-18,True
+40,0.04,A_delay_in_phase,0,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,0,x-s_null,True,"coupled, no timescale hierarchy",0,False
+40,0.04,A_delay_in_phase,0,y-s_null,True,no coupling,-10,True
+40,0.04,A_delay_in_phase,1,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,1,x-s_null,True,no coupling,-6,True
+40,0.04,A_delay_in_phase,1,y-s_null,True,no coupling,13,True
+40,0.04,A_delay_in_phase,2,x-y,False,driver -> response,7,False
+40,0.04,A_delay_in_phase,2,x-s_null,True,no coupling,15,True
+40,0.04,A_delay_in_phase,2,y-s_null,True,no coupling,8,True
+40,0.04,A_delay_in_phase,3,x-y,False,driver -> response,5,True
+40,0.04,A_delay_in_phase,3,x-s_null,True,no coupling,-9,True
+40,0.04,A_delay_in_phase,3,y-s_null,True,no coupling,-8,True
+40,0.04,A_delay_in_phase,4,x-y,False,driver -> response,7,False
+40,0.04,A_delay_in_phase,4,x-s_null,True,no coupling,-3,True
+40,0.04,A_delay_in_phase,4,y-s_null,True,no coupling,5,True
+40,0.04,A_delay_in_phase,5,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,5,x-s_null,True,no coupling,14,True
+40,0.04,A_delay_in_phase,5,y-s_null,True,no coupling,9,True
+40,0.04,A_delay_in_phase,6,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,6,x-s_null,True,no coupling,7,True
+40,0.04,A_delay_in_phase,6,y-s_null,True,no coupling,2,True
+40,0.04,A_delay_in_phase,7,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,7,x-s_null,True,no coupling,12,True
+40,0.04,A_delay_in_phase,7,y-s_null,True,no coupling,1,True
+40,0.04,A_delay_in_phase,8,x-y,False,driver -> response,6,True
+40,0.04,A_delay_in_phase,8,x-s_null,True,no coupling,7,True
+40,0.04,A_delay_in_phase,8,y-s_null,True,no coupling,4,True
+40,0.04,A_delay_in_phase,9,x-y,False,driver -> response,7,False
+40,0.04,A_delay_in_phase,9,x-s_null,True,no coupling,-3,True
+40,0.04,A_delay_in_phase,9,y-s_null,True,no coupling,13,True
+40,0.04,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,0,x-s_null,True,"coupled, no timescale hierarchy",0,False
+40,0.04,B_sync_strong,0,y-s_null,True,no coupling,-1,True
+40,0.04,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,1,x-s_null,True,no coupling,-6,True
+40,0.04,B_sync_strong,1,y-s_null,True,no coupling,-7,True
+40,0.04,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,2,x-s_null,True,no coupling,15,True
+40,0.04,B_sync_strong,2,y-s_null,True,no coupling,15,True
+40,0.04,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,3,x-s_null,True,no coupling,-9,True
+40,0.04,B_sync_strong,3,y-s_null,True,no coupling,-8,True
+40,0.04,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,4,x-s_null,True,no coupling,-3,True
+40,0.04,B_sync_strong,4,y-s_null,True,no coupling,-3,True
+40,0.04,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,5,x-s_null,True,no coupling,14,True
+40,0.04,B_sync_strong,5,y-s_null,True,no coupling,14,True
+40,0.04,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,6,x-s_null,True,no coupling,7,True
+40,0.04,B_sync_strong,6,y-s_null,True,no coupling,8,True
+40,0.04,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,7,x-s_null,True,no coupling,12,True
+40,0.04,B_sync_strong,7,y-s_null,True,no coupling,12,True
+40,0.04,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,8,x-s_null,True,no coupling,7,True
+40,0.04,B_sync_strong,8,y-s_null,True,no coupling,7,True
+40,0.04,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+40,0.04,B_sync_strong,9,x-s_null,True,no coupling,-3,True
+40,0.04,B_sync_strong,9,y-s_null,True,no coupling,-3,True
+40,0.04,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,0,x-s_null,True,"coupled, no timescale hierarchy",0,False
+40,0.04,C_sync_weak,0,y-s_null,True,no coupling,1,True
+40,0.04,C_sync_weak,1,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,1,x-s_null,True,no coupling,-6,True
+40,0.04,C_sync_weak,1,y-s_null,True,no coupling,2,True
+40,0.04,C_sync_weak,2,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,2,x-s_null,True,no coupling,15,True
+40,0.04,C_sync_weak,2,y-s_null,True,no coupling,15,True
+40,0.04,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,3,x-s_null,True,no coupling,-9,True
+40,0.04,C_sync_weak,3,y-s_null,True,no coupling,-5,True
+40,0.04,C_sync_weak,4,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,4,x-s_null,True,no coupling,-3,True
+40,0.04,C_sync_weak,4,y-s_null,True,no coupling,8,True
+40,0.04,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,5,x-s_null,True,no coupling,14,True
+40,0.04,C_sync_weak,5,y-s_null,True,no coupling,-3,True
+40,0.04,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,6,x-s_null,True,no coupling,7,True
+40,0.04,C_sync_weak,6,y-s_null,True,no coupling,10,True
+40,0.04,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,7,x-s_null,True,no coupling,12,True
+40,0.04,C_sync_weak,7,y-s_null,True,no coupling,9,True
+40,0.04,C_sync_weak,8,x-y,False,no coupling,1,False
+40,0.04,C_sync_weak,8,x-s_null,True,no coupling,7,True
+40,0.04,C_sync_weak,8,y-s_null,True,no coupling,-14,True
+40,0.04,C_sync_weak,9,x-y,False,synchronous slow-fast,0,True
+40,0.04,C_sync_weak,9,x-s_null,True,no coupling,-3,True
+40,0.04,C_sync_weak,9,y-s_null,True,no coupling,-2,True
+40,0.04,F_uncoupled,0,x-y,False,no coupling,-2,True
+40,0.04,F_uncoupled,1,x-y,False,no coupling,-11,True
+40,0.04,F_uncoupled,2,x-y,False,no coupling,13,True
+40,0.04,F_uncoupled,3,x-y,False,no coupling,-5,True
+40,0.04,F_uncoupled,4,x-y,False,no coupling,6,True
+40,0.04,F_uncoupled,5,x-y,False,no coupling,-5,True
+40,0.04,F_uncoupled,6,x-y,False,no coupling,-14,True
+40,0.04,F_uncoupled,7,x-y,False,no coupling,5,True
+40,0.04,F_uncoupled,8,x-y,False,no coupling,-12,True
+40,0.04,F_uncoupled,9,x-y,False,no coupling,-8,True
+80,0.08,A_delay_in_phase,0,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,0,x-s_null,True,no coupling,1,True
+80,0.08,A_delay_in_phase,0,y-s_null,True,no coupling,-2,True
+80,0.08,A_delay_in_phase,1,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,1,x-s_null,True,no coupling,-1,True
+80,0.08,A_delay_in_phase,1,y-s_null,True,no coupling,-4,True
+80,0.08,A_delay_in_phase,2,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,2,x-s_null,True,no coupling,-8,True
+80,0.08,A_delay_in_phase,2,y-s_null,True,no coupling,5,True
+80,0.08,A_delay_in_phase,3,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,3,x-s_null,True,no coupling,-5,True
+80,0.08,A_delay_in_phase,3,y-s_null,True,no coupling,-8,True
+80,0.08,A_delay_in_phase,4,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,4,x-s_null,True,no coupling,5,True
+80,0.08,A_delay_in_phase,4,y-s_null,True,no coupling,1,True
+80,0.08,A_delay_in_phase,5,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,5,x-s_null,True,no coupling,-2,True
+80,0.08,A_delay_in_phase,5,y-s_null,True,no coupling,-4,True
+80,0.08,A_delay_in_phase,6,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,6,x-s_null,True,no coupling,4,True
+80,0.08,A_delay_in_phase,6,y-s_null,True,no coupling,2,True
+80,0.08,A_delay_in_phase,7,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,7,x-s_null,True,no coupling,-1,True
+80,0.08,A_delay_in_phase,7,y-s_null,True,driver -> response,-5,False
+80,0.08,A_delay_in_phase,8,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,8,x-s_null,True,no coupling,-6,True
+80,0.08,A_delay_in_phase,8,y-s_null,True,no coupling,2,True
+80,0.08,A_delay_in_phase,9,x-y,False,driver -> response,3,True
+80,0.08,A_delay_in_phase,9,x-s_null,True,no coupling,0,True
+80,0.08,A_delay_in_phase,9,y-s_null,True,no coupling,7,True
+80,0.08,B_sync_strong,0,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,0,x-s_null,True,no coupling,1,True
+80,0.08,B_sync_strong,0,y-s_null,True,no coupling,0,True
+80,0.08,B_sync_strong,1,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,1,x-s_null,True,no coupling,-1,True
+80,0.08,B_sync_strong,1,y-s_null,True,no coupling,-2,True
+80,0.08,B_sync_strong,2,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,2,x-s_null,True,no coupling,-8,True
+80,0.08,B_sync_strong,2,y-s_null,True,no coupling,-8,True
+80,0.08,B_sync_strong,3,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,3,x-s_null,True,no coupling,-5,True
+80,0.08,B_sync_strong,3,y-s_null,True,no coupling,-5,True
+80,0.08,B_sync_strong,4,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,4,x-s_null,True,no coupling,5,True
+80,0.08,B_sync_strong,4,y-s_null,True,no coupling,5,True
+80,0.08,B_sync_strong,5,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,5,x-s_null,True,no coupling,-2,True
+80,0.08,B_sync_strong,5,y-s_null,True,no coupling,-2,True
+80,0.08,B_sync_strong,6,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,6,x-s_null,True,no coupling,4,True
+80,0.08,B_sync_strong,6,y-s_null,True,no coupling,4,True
+80,0.08,B_sync_strong,7,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,7,x-s_null,True,no coupling,-1,True
+80,0.08,B_sync_strong,7,y-s_null,True,no coupling,-1,True
+80,0.08,B_sync_strong,8,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,8,x-s_null,True,no coupling,-6,True
+80,0.08,B_sync_strong,8,y-s_null,True,no coupling,-6,True
+80,0.08,B_sync_strong,9,x-y,False,synchronous slow-fast,0,True
+80,0.08,B_sync_strong,9,x-s_null,True,no coupling,0,True
+80,0.08,B_sync_strong,9,y-s_null,True,no coupling,-1,True
+80,0.08,C_sync_weak,0,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,0,x-s_null,True,no coupling,1,True
+80,0.08,C_sync_weak,0,y-s_null,True,no coupling,1,True
+80,0.08,C_sync_weak,1,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,1,x-s_null,True,no coupling,-1,True
+80,0.08,C_sync_weak,1,y-s_null,True,no coupling,5,True
+80,0.08,C_sync_weak,2,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,2,x-s_null,True,no coupling,-8,True
+80,0.08,C_sync_weak,2,y-s_null,True,no coupling,-8,True
+80,0.08,C_sync_weak,3,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,3,x-s_null,True,no coupling,-5,True
+80,0.08,C_sync_weak,3,y-s_null,True,no coupling,3,True
+80,0.08,C_sync_weak,4,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,4,x-s_null,True,no coupling,5,True
+80,0.08,C_sync_weak,4,y-s_null,True,no coupling,4,True
+80,0.08,C_sync_weak,5,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,5,x-s_null,True,no coupling,-2,True
+80,0.08,C_sync_weak,5,y-s_null,True,no coupling,7,True
+80,0.08,C_sync_weak,6,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,6,x-s_null,True,no coupling,4,True
+80,0.08,C_sync_weak,6,y-s_null,True,no coupling,5,True
+80,0.08,C_sync_weak,7,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,7,x-s_null,True,no coupling,-1,True
+80,0.08,C_sync_weak,7,y-s_null,True,no coupling,-2,True
+80,0.08,C_sync_weak,8,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,8,x-s_null,True,no coupling,-6,True
+80,0.08,C_sync_weak,8,y-s_null,True,no coupling,-4,True
+80,0.08,C_sync_weak,9,x-y,False,synchronous slow-fast,0,True
+80,0.08,C_sync_weak,9,x-s_null,True,no coupling,0,True
+80,0.08,C_sync_weak,9,y-s_null,True,no coupling,0,True
+80,0.08,F_uncoupled,0,x-y,False,no coupling,-2,True
+80,0.08,F_uncoupled,1,x-y,False,no coupling,-4,True
+80,0.08,F_uncoupled,2,x-y,False,no coupling,-1,True
+80,0.08,F_uncoupled,3,x-y,False,no coupling,-2,True
+80,0.08,F_uncoupled,4,x-y,False,no coupling,1,True
+80,0.08,F_uncoupled,5,x-y,False,no coupling,-6,True
+80,0.08,F_uncoupled,6,x-y,False,no coupling,7,True
+80,0.08,F_uncoupled,7,x-y,False,no coupling,-6,True
+80,0.08,F_uncoupled,8,x-y,False,no coupling,6,True
+80,0.08,F_uncoupled,9,x-y,False,no coupling,-6,True
