@@ -1,0 +1,181 @@
+scenario,seed,pair,expected,expected_limitation,obtained,tau,success
+A_delay_in_phase,0,x-y,driver -> response,False,driver -> response,11,True
+A_delay_in_phase,0,x-s_null,no coupling,False,no coupling,-7,True
+A_delay_in_phase,0,y-s_null,no coupling,False,no coupling,-20,True
+A_delay_in_phase,1,x-y,driver -> response,False,driver -> response,13,True
+A_delay_in_phase,1,x-s_null,no coupling,False,no coupling,4,True
+A_delay_in_phase,1,y-s_null,no coupling,False,no coupling,27,True
+A_delay_in_phase,2,x-y,driver -> response,False,driver -> response,14,False
+A_delay_in_phase,2,x-s_null,no coupling,False,no coupling,30,True
+A_delay_in_phase,2,y-s_null,no coupling,False,"coupled, no timescale hierarchy",19,False
+A_delay_in_phase,3,x-y,driver -> response,False,driver -> response,11,True
+A_delay_in_phase,3,x-s_null,no coupling,False,no coupling,30,True
+A_delay_in_phase,3,y-s_null,no coupling,False,no coupling,14,True
+A_delay_in_phase,4,x-y,driver -> response,False,driver -> response,13,True
+A_delay_in_phase,4,x-s_null,no coupling,False,no coupling,28,True
+A_delay_in_phase,4,y-s_null,no coupling,False,no coupling,7,True
+A_delay_in_phase,5,x-y,driver -> response,False,driver -> response,11,True
+A_delay_in_phase,5,x-s_null,no coupling,False,"coupled, no timescale hierarchy",22,False
+A_delay_in_phase,5,y-s_null,no coupling,False,no coupling,12,True
+A_delay_in_phase,6,x-y,driver -> response,False,driver -> response,12,True
+A_delay_in_phase,6,x-s_null,no coupling,False,no coupling,-21,True
+A_delay_in_phase,6,y-s_null,no coupling,False,no coupling,0,True
+A_delay_in_phase,7,x-y,driver -> response,False,driver -> response,13,True
+A_delay_in_phase,7,x-s_null,no coupling,False,no coupling,-7,True
+A_delay_in_phase,7,y-s_null,no coupling,False,no coupling,-22,True
+A_delay_in_phase,8,x-y,driver -> response,False,driver -> response,13,True
+A_delay_in_phase,8,x-s_null,no coupling,False,no coupling,15,True
+A_delay_in_phase,8,y-s_null,no coupling,False,no coupling,-1,True
+A_delay_in_phase,9,x-y,driver -> response,False,driver -> response,13,True
+A_delay_in_phase,9,x-s_null,no coupling,False,no coupling,27,True
+A_delay_in_phase,9,y-s_null,no coupling,False,no coupling,-21,True
+B_sync_strong,0,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,0,x-s_null,no coupling,False,no coupling,-7,True
+B_sync_strong,0,y-s_null,no coupling,False,no coupling,-5,True
+B_sync_strong,1,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,1,x-s_null,no coupling,False,no coupling,4,True
+B_sync_strong,1,y-s_null,no coupling,False,no coupling,4,True
+B_sync_strong,2,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,2,x-s_null,no coupling,False,no coupling,30,True
+B_sync_strong,2,y-s_null,no coupling,False,no coupling,30,True
+B_sync_strong,3,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,3,x-s_null,no coupling,False,no coupling,30,True
+B_sync_strong,3,y-s_null,no coupling,False,no coupling,30,True
+B_sync_strong,4,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,4,x-s_null,no coupling,False,no coupling,28,True
+B_sync_strong,4,y-s_null,no coupling,False,no coupling,21,True
+B_sync_strong,5,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,5,x-s_null,no coupling,False,"coupled, no timescale hierarchy",22,False
+B_sync_strong,5,y-s_null,no coupling,False,no coupling,22,True
+B_sync_strong,6,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,6,x-s_null,no coupling,False,no coupling,-21,True
+B_sync_strong,6,y-s_null,no coupling,False,no coupling,14,True
+B_sync_strong,7,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,7,x-s_null,no coupling,False,no coupling,-7,True
+B_sync_strong,7,y-s_null,no coupling,False,no coupling,-9,True
+B_sync_strong,8,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,8,x-s_null,no coupling,False,no coupling,15,True
+B_sync_strong,8,y-s_null,no coupling,False,no coupling,12,True
+B_sync_strong,9,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+B_sync_strong,9,x-s_null,no coupling,False,no coupling,27,True
+B_sync_strong,9,y-s_null,no coupling,False,no coupling,23,True
+C_sync_weak,0,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,0,x-s_null,no coupling,False,no coupling,-7,True
+C_sync_weak,0,y-s_null,no coupling,False,no coupling,-8,True
+C_sync_weak,1,x-y,synchronous slow-fast,False,no coupling,-1,False
+C_sync_weak,1,x-s_null,no coupling,False,no coupling,4,True
+C_sync_weak,1,y-s_null,no coupling,False,no coupling,-22,True
+C_sync_weak,2,x-y,synchronous slow-fast,False,no coupling,1,False
+C_sync_weak,2,x-s_null,no coupling,False,no coupling,30,True
+C_sync_weak,2,y-s_null,no coupling,False,no coupling,30,True
+C_sync_weak,3,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,3,x-s_null,no coupling,False,no coupling,30,True
+C_sync_weak,3,y-s_null,no coupling,False,no coupling,29,True
+C_sync_weak,4,x-y,synchronous slow-fast,False,no coupling,1,False
+C_sync_weak,4,x-s_null,no coupling,False,no coupling,28,True
+C_sync_weak,4,y-s_null,no coupling,False,no coupling,26,True
+C_sync_weak,5,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,5,x-s_null,no coupling,False,"coupled, no timescale hierarchy",22,False
+C_sync_weak,5,y-s_null,no coupling,False,no coupling,-17,True
+C_sync_weak,6,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,6,x-s_null,no coupling,False,no coupling,-21,True
+C_sync_weak,6,y-s_null,no coupling,False,no coupling,14,True
+C_sync_weak,7,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,7,x-s_null,no coupling,False,no coupling,-7,True
+C_sync_weak,7,y-s_null,no coupling,False,driver -> response,-9,False
+C_sync_weak,8,x-y,synchronous slow-fast,False,synchronous slow-fast,0,True
+C_sync_weak,8,x-s_null,no coupling,False,no coupling,15,True
+C_sync_weak,8,y-s_null,no coupling,False,no coupling,11,True
+C_sync_weak,9,x-y,synchronous slow-fast,False,no coupling,1,False
+C_sync_weak,9,x-s_null,no coupling,False,no coupling,27,True
+C_sync_weak,9,y-s_null,no coupling,False,no coupling,14,True
+D_delay_antiphase,0,x-y,driver -> response,True,"coupled, no timescale hierarchy",-8,False
+D_delay_antiphase,0,x-s_null,no coupling,False,no coupling,-7,True
+D_delay_antiphase,0,y-s_null,no coupling,False,no coupling,-8,True
+D_delay_antiphase,1,x-y,driver -> response,True,no coupling,30,False
+D_delay_antiphase,1,x-s_null,no coupling,False,no coupling,4,True
+D_delay_antiphase,1,y-s_null,no coupling,False,no coupling,-28,True
+D_delay_antiphase,2,x-y,driver -> response,True,no coupling,30,False
+D_delay_antiphase,2,x-s_null,no coupling,False,no coupling,30,True
+D_delay_antiphase,2,y-s_null,no coupling,False,no coupling,-23,True
+D_delay_antiphase,3,x-y,driver -> response,True,no coupling,-7,False
+D_delay_antiphase,3,x-s_null,no coupling,False,no coupling,30,True
+D_delay_antiphase,3,y-s_null,no coupling,False,no coupling,-4,True
+D_delay_antiphase,4,x-y,driver -> response,True,no coupling,-10,False
+D_delay_antiphase,4,x-s_null,no coupling,False,no coupling,28,True
+D_delay_antiphase,4,y-s_null,no coupling,False,no coupling,3,True
+D_delay_antiphase,5,x-y,driver -> response,True,no coupling,-6,False
+D_delay_antiphase,5,x-s_null,no coupling,False,no coupling,22,True
+D_delay_antiphase,5,y-s_null,no coupling,False,no coupling,-10,True
+D_delay_antiphase,6,x-y,driver -> response,True,no coupling,30,False
+D_delay_antiphase,6,x-s_null,no coupling,False,no coupling,-21,True
+D_delay_antiphase,6,y-s_null,no coupling,False,no coupling,19,True
+D_delay_antiphase,7,x-y,driver -> response,True,no coupling,-6,False
+D_delay_antiphase,7,x-s_null,no coupling,False,no coupling,-7,True
+D_delay_antiphase,7,y-s_null,no coupling,False,no coupling,29,True
+D_delay_antiphase,8,x-y,driver -> response,True,no coupling,-7,False
+D_delay_antiphase,8,x-s_null,no coupling,False,no coupling,15,True
+D_delay_antiphase,8,y-s_null,no coupling,False,no coupling,21,True
+D_delay_antiphase,9,x-y,driver -> response,True,"coupled, no timescale hierarchy",-8,False
+D_delay_antiphase,9,x-s_null,no coupling,False,no coupling,27,True
+D_delay_antiphase,9,y-s_null,no coupling,False,no coupling,-19,True
+E_sync_antiphase,0,x-y,synchronous slow-fast,True,no coupling,21,False
+E_sync_antiphase,0,x-s_null,no coupling,False,no coupling,-7,True
+E_sync_antiphase,0,y-s_null,no coupling,False,no coupling,-23,True
+E_sync_antiphase,1,x-y,synchronous slow-fast,True,no coupling,20,False
+E_sync_antiphase,1,x-s_null,no coupling,False,no coupling,4,True
+E_sync_antiphase,1,y-s_null,no coupling,False,no coupling,23,True
+E_sync_antiphase,2,x-y,synchronous slow-fast,True,no coupling,22,False
+E_sync_antiphase,2,x-s_null,no coupling,False,no coupling,30,True
+E_sync_antiphase,2,y-s_null,no coupling,False,no coupling,-12,True
+E_sync_antiphase,3,x-y,synchronous slow-fast,True,no coupling,-18,False
+E_sync_antiphase,3,x-s_null,no coupling,False,no coupling,30,True
+E_sync_antiphase,3,y-s_null,no coupling,False,no coupling,3,True
+E_sync_antiphase,4,x-y,synchronous slow-fast,True,no coupling,21,False
+E_sync_antiphase,4,x-s_null,no coupling,False,no coupling,28,True
+E_sync_antiphase,4,y-s_null,no coupling,False,no coupling,5,True
+E_sync_antiphase,5,x-y,synchronous slow-fast,True,no coupling,-17,False
+E_sync_antiphase,5,x-s_null,no coupling,False,no coupling,22,True
+E_sync_antiphase,5,y-s_null,no coupling,False,no coupling,1,True
+E_sync_antiphase,6,x-y,synchronous slow-fast,True,no coupling,20,False
+E_sync_antiphase,6,x-s_null,no coupling,False,no coupling,-21,True
+E_sync_antiphase,6,y-s_null,no coupling,False,no coupling,30,True
+E_sync_antiphase,7,x-y,synchronous slow-fast,True,no coupling,-19,False
+E_sync_antiphase,7,x-s_null,no coupling,False,no coupling,-7,True
+E_sync_antiphase,7,y-s_null,no coupling,False,no coupling,-25,True
+E_sync_antiphase,8,x-y,synchronous slow-fast,True,no coupling,-17,False
+E_sync_antiphase,8,x-s_null,no coupling,False,no coupling,15,True
+E_sync_antiphase,8,y-s_null,no coupling,False,no coupling,30,True
+E_sync_antiphase,9,x-y,synchronous slow-fast,True,no coupling,21,False
+E_sync_antiphase,9,x-s_null,no coupling,False,no coupling,27,True
+E_sync_antiphase,9,y-s_null,no coupling,False,no coupling,9,True
+F_uncoupled,0,x-y,no coupling,False,no coupling,-20,True
+F_uncoupled,1,x-y,no coupling,False,no coupling,-28,True
+F_uncoupled,2,x-y,no coupling,False,no coupling,4,True
+F_uncoupled,3,x-y,no coupling,False,no coupling,-17,True
+F_uncoupled,4,x-y,no coupling,False,no coupling,-20,True
+F_uncoupled,5,x-y,no coupling,False,no coupling,14,True
+F_uncoupled,6,x-y,no coupling,False,no coupling,-29,True
+F_uncoupled,7,x-y,no coupling,False,no coupling,16,True
+F_uncoupled,8,x-y,no coupling,False,"coupled, no timescale hierarchy",-25,False
+F_uncoupled,9,x-y,no coupling,False,no coupling,-18,True
+G_common_driver,0,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,1,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,2,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,3,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,4,y1-y2,no coupling,True,no coupling,-1,True
+G_common_driver,5,y1-y2,no coupling,True,no coupling,-1,True
+G_common_driver,6,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,7,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+G_common_driver,8,y1-y2,no coupling,True,no coupling,1,True
+G_common_driver,9,y1-y2,no coupling,True,"coupled, no timescale hierarchy",0,False
+H_fast_drives_slow,0,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,1,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,2,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,3,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,4,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,5,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,6,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,7,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,8,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
+H_fast_drives_slow,9,y-s,driver -> response,True,"coupled, no timescale hierarchy",1,False
